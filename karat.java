@@ -4,12 +4,11 @@ import java.util.*;
 public class karat {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter first number");
+        System.out.println("enter 1st number");
         String a = sc.nextLine();
-        System.out.println("enter second number");
+        System.out.println("enter 2nd number");
         String b = sc.nextLine();
-        String product = multiply(a,b);
-        System.out.println(product);
+        System.out.println(multiply(a,b));
 
     }
 
